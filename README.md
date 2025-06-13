@@ -1,51 +1,47 @@
-# Welcome to your Expo app 👋
+# 📱 Student Registry App (Frontend)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple React Native app built using **Expo** that allows you to:
 
-## Get started
+- 📄 Add student details
+- 📋 View a list of students
+- 🔍 See full details of a student in a modal
+- 🌐 Interact with a Node.js + PostgreSQL backend
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+- Form with Name, Roll Number, Age, and Email
+- List of all added students
+- Modal to show full student details
+- Automatically updates the list after a new student is added
+- Fully responsive and works on Android
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧰 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Frontend:** React Native + Expo
+- **State Management:** useState, useEffect
+- **HTTP Client:** Axios
+- **Backend (external):** Node.js, Express, PostgreSQL (API URL is hardcoded)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🖼️ Screens
 
-When you're ready, run:
+| Add Student Form | Student List | Modal Detail View |
+|------------------|--------------|-------------------|
+| ![Form](./screenshots/form.png) | ![List](./screenshots/list.png) | ![Modal](./screenshots/modal.png) |
+
+> Add screenshots inside a `screenshots/` folder.
+
+---
+
+## 🛠️ Installation
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Todo_frontend
+git clone https://github.com/your-username/student-registry-app.git
+cd student-registry-app
+npm install
+npx expo start
